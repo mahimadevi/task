@@ -24,10 +24,9 @@ const Home: React.FC = () => {
   ); // Default alignment
 
   const handleAddTextBox = () => {
-    const id = `text-${Date.now()}`;
+    // const id = `text-${Date.now()}`;
     dispatch(
       addTextBox({
-        id,
         text: "New Text",
         x: 50,
         y: 50,
